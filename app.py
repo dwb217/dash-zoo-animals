@@ -18,7 +18,7 @@ mydata = [go.Bar(x=x_list,
                 marker=dict(color=myfavoritecolor))]
 mylayout = go.Layout(
     title = mytitle,
-    xaxis = dict(title = 'Type of animal!'),
+    xaxis = dict(title = 'Type of animal'),
     yaxis = dict(title = 'Number of escapes'))
 myfigure = go.Figure(data=mydata, layout=mylayout)
 
